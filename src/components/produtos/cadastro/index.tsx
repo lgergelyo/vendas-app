@@ -10,7 +10,7 @@ export const CadastroProdutos: React.FC = () => {
 
     const submit = () => {
         const produto = { 
-            sku: sku, 
+            sku, 
             preco, 
             nome, 
             descricao
